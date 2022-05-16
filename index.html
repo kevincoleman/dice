@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="./main.js"></script>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Die Pool Roller</h1>
+    <form>
+      <fieldset>
+        <label for="quantity">Quantity</label>
+          <input type="number" name="quantity" id="quantity" value="1"></input>
+      </fieldset>
+      
+      <fieldset>
+        <label for="dieType">Die Type</label>
+          <input type="number" name="dieType" id="dieSize" value="6"></input>
+      </fieldset>
+
+      <button onclick="roll({ quantity: getQuantity(), dieSize: getDieSize() })">Roll</button>
+    </form>
+    <p id="result"></p>
+  </body>
+</html>

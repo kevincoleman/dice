@@ -1,0 +1,48 @@
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  padding-right: 1em;
+}
+
+input {
+  font-size: 1.1em;
+  padding: 1em;
+  width: 8em;
+  background-color: #444;
+  border: none;
+  color: #fff;
+}
+
+button {
+  width: 70%;
+  padding: 1em 2em;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 13px;
+}
