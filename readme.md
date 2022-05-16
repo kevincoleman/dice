@@ -1,4 +1,4 @@
-# Die Pool Roller
+# Dice Pool Roller
 
 This is just a little page for rolling any number of dice of a single kind. Great for Scum & Villainy.
 
